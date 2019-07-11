@@ -1,0 +1,145 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+body,html
+{
+	height:100%;
+}
+
+header#entete
+{
+	display: block;
+	top: 0;
+	height: 500px;
+}
+
+
+
+div#fond
+{
+	right:0;
+	top:0;
+	min-width:100%;
+	min-height: 10%;
+	width: auto;
+	height: 500px;
+	z-index:-999;
+	overflow: hidden;
+}
+
+
+div#slogan
+{
+	text-align: center;
+	font-family: arial;
+	font-size: 23px;
+	padding-top: 3em;
+	color: #FFFFFF;
+}
+
+.recherche{
+	margin: 5px;
+	margin-left: 2em;
+  	border: 3px solid #728254;
+  	margin-bottom: 5px;
+  	height: 3.4em;
+  	width: 24em;
+  	padding-left: 10px;
+  	background-color: white;
+  	text-transform: uppercase;
+}
+
+#entree1{
+	margin-top: 10px;
+}
+
+#commande_rapide{
+	border: 2px solid #728254;
+	width: 425px;
+	background-color: rgba(114, 130, 84, 0.3);
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 0.5em;
+	margin-top: 2em;
+}
+
+#valide{
+	background-color: #728254;
+	color: white;
+	width: 374px;
+  	border: none;
+  	height: 4em;
+  	letter-spacing: 1px;
+  	margin: 15px 2em 10px 2em;
+  	font-weight: bold;
+  	text-transform: uppercase;
+  	
+}
+#navigation
+{
+    width: 800px;
+    /* Le menu navigation apparaît uniquement grâce à cette grosse ombre */
+    box-shadow: 0 45px 60px -30px #7D7D7D;
+}
+
+#navigation ul
+{
+    padding: 15px;
+    list-style: none;
+    margin: 3.82em;
+}
+nav
+{
+	margin-left:350px;
+}
+a
+{
+	
+	text-decoration:none;
+	color:black;
+}
+ .menu
+{
+	border(8px solid green);
+    	/* Enleve le souligné des liens (a) */
+    	text-decoration: none;
+    	/* Oblige le liens (a) à occuper tout l'espace  */
+    	display: inline-block;;
+    	padding: 11px;
+    	border-right : 1px solid #ccc;
+   	font-size: 25px;
+	overflow: hidden;
+	
+	
+}
+.menu :hover
+{
+    	color:white;
+	background-color:#728254;
+	padding:10px;
+}
+strong
+{
+	
+	margin-left:500px;
+    	font: 70 2.4rem/20.4rem Chronicle,Times,Times New Roman,serif;
+}
+#head
+{
+	position : fixed;
+	overflow: hidden;
+}
+
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px; /* Used in this example to enable scrolling */
+}
+
+ul{
+	background-color: white;
+}

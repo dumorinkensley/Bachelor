@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Petit Dans les grands</title>
+  <link rel="stylesheet" href="index.css">
+  <script src="script.js"></script>
+</head>
+<body>
+
+<header id="head">
+	<div id="logo_nav">
+                  <a href="page1.html"><img src="logcuisine.png" width="150px" height="105px" alt="Logo" class="taille_image"></a>
+               </div>
+	
+<nav id="navigation" >
+ 
+	<ul>
+		<li class="menu"><a href="index.html">Accueil</li>
+        <li class="menu"><a href="#entre">Entrées</a></li>
+        <li class="menu"><a href="#plats">Plats</a></li>
+        <li class="menu"><a href="#dessert">Desserts</a></li>
+        <li class="menu"><a href="#Menuv">Menu Végétarien</a></li>
+	  <li class="menu"><a href="cours.html">Nos cours</li>
+	  <li class="menu"><a href="contact.html">Contact</li>
+	  <li class="menu"><a href="engagements1.html">Nos valeurs</a></li>
+	  <li class="menu"><a href="inscription1.html">Inscription</li>
+	  <li class="menu"><a href="panier.html">Panier</li>
+	  </ul>
+    </nav>
+  
+</header>
+
+	<video id="voila" autoplay="true" loop>
+			<source src="video-1.mp4" type="video/mp4">
+			</video>
+			<div id="logo_nav_accueil">
+                  <a href="index.html"><img src="logcuisine.png" width="125px" height="125px" alt="Logo" class="taille_image"></a>
+				  <a id="i" href="index.html#entre><img  src="fleche.png"></a>
+               </div>
+			<div id="commande_rapide">
+  			<p>
+  				<input type="text" class="recherche" id="entree1" placeholder="Adresse mail" /></br>
+   	 			<input type="text" class="recherche" id="entree2" placeholder="Adresse" /></br>
+  				<input type="text" class="recherche" id="entree3" placeholder="Mot de passe" /></br>
+  				<a href="#entre"><input type="button" id="valide" value="valider"></a>
+  			</p>
+ 			</div>
+			
+
+	<div  id="entre"><strong>Entrées</strong></p>
+
+		<ul id="Ent">
+		<li ><a href="legume.html" onclick="window.open(this.href, 'Popup', 'scrollbars=1,resizable=1,height=900,width=480'); return false;">
+			<img src="legume2.jpg" width="480px" height="300px"><br><h3>Légumes d'hiver rôtis au four</h3>
+			<p>Des légumes d'hiver, rôtis ou cuits vapeur,
+				avec une vinaigrette au citron et des pickles d'oignon plein peps !</p></a>
+				<span><p><div class="box"><h4>4.99€</h4>     
+        <label for="qty1"><abbr title="Quantity"></abbr></label>
+		<button id="down" onclick="modify_qty(-1,'qty1');modify_qty(-1,'res')"><p><p>-</p></button>
+        <input id="qty1" value="0"/>
+       
+       <button id="up" onclick="modify_qty(1,'qty1');modify_qty3(1,'res')"><p>+</p></button>
+    </div></p>
+</span></li>
+		<li ><a href="salade.html" onclick="window.open(this.href, 'Popup', 'scrollbars=1,resizable=1,height=900,width=480'); return false;">
+				<img src="salade.jpg" width="480px" height="309px"><br><h3>Salade de mâche, chèvre & noix</h3>
+				<p>Quand le Petit Billy rencontre la noix et la vinaigrette au miel sur un lit de mâche, ça donne une salade gourmande.
+</p></a><span><p><div class="box"><h4>5.99€</h4>     
+        <label for="qty2"><abbr title="Quantity"></abbr></label>
+		<button id="down" onclick="modify_qty(-1,'qty2');modify_qty(-1,'res')"><p><p>-</p></button>
+        <input id="qty2" value="0"/>
+       
+       <button id="up" onclick="modify_qty(1,'qty2');modify_qty(1,'res')"><p><p>+</p></button>
+		</ul>
+	</div>
+	
+	
+	
+	<p id="plats"><strong>Plats</strong></p>
+	<ul id="Ent">
+		<li ><a href="purée.html" onclick="window.open(this.href, 'Popup', 'scrollbars=1,resizable=1,height=900,width=480'); return false;">
+			<img src="purée.png" width="480px" height="300px"><br><h3>Sauté de boeuf bio et Purée</h3>
+			<p>Du bœuf bio ultra fondant, braisé pendant 4h avec un bouquet garni, une purée maison.</p></a>
+				<span><p><div class="box"><h4>13.99€</h4>     
+        <label for="qty3"><abbr title="Quantity"></abbr></label>
+		<button id="down" onclick="modify_qty(-1,'qty3');modify_qty(-1,'res')"><p><p>-</p></button>
+        <input id="qty3" value="0"/>
+       
+       <button id="up" onclick="modify_qty(1,'qty3');modify_qty(1,'res')"><p><p>+</p></button>
+	   
+	  
+    </div></p>
+</span></li>
+		<li ><a href="penne.html" onclick="window.open(this.href, 'Popup', 'scrollbars=1,resizable=1,height=900,width=480'); return false;">
+				<img src="penne.jpg" width="480px" height="309px"><br><h3>Penne aux champignons</h3>
+				<p>Des penne al dente aux champignons et une sauce crémeuse ciboulette parmesan.
+</p></a><span><p><div class="box"><h4>15.99€</h4>     
+        <label for="qty4"><abbr title="Quantity"></abbr></label>
+		<button id="down" onclick="modify_qty(-1,'qty4');modify_qty(-1,'res')"><p><p>-</p></button>
+        <input id="qty4" value="0"/>
+       
+       <button id="up" onclick="modify_qty(1,'qty4');modify_qty(1,'res')"><p><p>+</p></button>
+		</ul>
+	</div>
+	
+	<div  id="dessert"><strong>Desserts</strong></p>
+
+		<ul id="Ent">
+		<li ><a href="cheesecake.html" onclick="window.open(this.href, 'Popup', 'scrollbars=1,resizable=1,height=900,width=480'); return false;">
+			<img src="cheesecake.jpg" width="480px" height="300px"><br><h3>Cheesecake bio à la ricotta</h3>
+			<p>Cheesecake à la ricotta bio Bonneterre, spéculoos bio Bonneterre et caramel beurre salé.</p></a>
+				<span><p><div class="box"><h4>4.20€</h4>     
+        <label for="qty5"><abbr title="Quantity"></abbr></label>
+		<button id="down" onclick="modify_qty(-1,'qty5');modify_qty(-1,'res')"><p><p>-</p></button>
+        <input id="qty5" value="0"/>
+       
+      <button id="up" onclick="modify_qty(1,'qty5');modify_qty(1,'res')"><p><p>+</p></button>
+    </div></p>
+</span></li>
+		<li ><a href="gateau.html" onclick="window.open(this.href, 'Popup', 'scrollbars=1,resizable=1,height=900,width=480'); return false;">
+				<img src="gateau.jpg" width="480px" height="309px"><br><h3>Gâteau au yaourt de brebis bio</h3>
+				<p> Gâteau au yaourt de brebis bio Lait Plaisirs, aux dattes et à la cannelle.
+</p></a><span><p><div class="box"><h4>6.99€</h4>     
+        <label for="qty6"><abbr title="Quantity"></abbr></label>
+		<button id="down" onclick="modify_qty(-1,'qty6');modify_qty(-1,'res')"><p><p>-</p></button>
+        <input id="qty6" value="0"/>
+       
+       <button id="up" onclick="modify_qty(1,'qty6');modify_qty(1,'res')"><p><p>+</p></button>
+		</ul>
+	</div>
+	
+	<div  id="Menuv"><strong>Ménu Végétarien</strong></p>
+	<ul id="Ent">
+		<li ><a href="entMV.html" onclick="window.open(this.href, 'Popup', 'scrollbars=1,resizable=1,height=900,width=480'); return false;">
+			<img src="entMV.jpg" width="480px" height="300px"><br><h3>Salade de poivrons et de maïs</h3>
+			<p>Une bonne Salade de grains de blé avec maïs et du poivron rouge</p></a>
+				<span><p><div class="box"><h4>7.99€</h4>     
+        <label for="qty7"><abbr title="Quantity"></abbr></label>
+		<button id="down" onclick="modify_qty(-1,'qty7');modify_qty(-1,'res')"><p><p>-</p></button>
+        <input id="qty7" value="0"/>
+       
+       <button id="up" onclick="modify_qty(1,'qty7');modify_qty(1,'res')"><p><p>+</p></button>
+	   
+	  
+    </div></p>
+</span></li>
+		<li ><a href="platMV.html" onclick="window.open(this.href, 'Popup', 'scrollbars=1,resizable=1,height=900,width=480'); return false;">
+				<img src="platMV.jpg" width="480px" height="309px"><br><h3>Lasagnes végétariennes</h3>
+				<p>Envie d'une petite escapade italienne.Je vous propose de délicieuses lasagnes végétariennes.
+</p></a><span><p><div class="box"><h4>17.99€</h4>     
+        <label for="qty8"><abbr title="Quantity"></abbr></label>
+		<button id="down" onclick="modify_qty(-1,'qty8');modify_qty(-1,'res');modify_qty(-1,'qty9')"><p><p>-</p></button>
+        <input id="qty8" value="0"/>
+       
+       <button id="up" onclick="modify_qty(1,'qty8');modify_qty(1,'res');modify_qty(1,'qty9')"><p><p>+</p></button>
+		</ul>
+	</div>
+	
+	<ul id="desMV">
+		<li ><a href="desMV.html" onclick="window.open(this.href, 'Popup', 'scrollbars=1,resizable=1,height=900,width=480'); return false;">
+			<img src="desMV.jpg" width="480px" height="300px"><br><h3>Gâteau vapeur au chocolat</h3>
+			<p>Un dessert cuit à la vapeur, ça existe ! Nul ne saura résister à ce délicieux gâteau au chocolat et aux cacahuètes.</p></a>
+				<span><p><div class="box"><h4>5.99€</h4>     
+        <label for="qty9"><abbr title="Quantity"></abbr></label>
+		<button id="down" onclick="modify_qty(-1,'qty9');modify_qty(-1,'res')"><p><p>-</p></button>
+        <input id="qty9" value="0"/>
+       
+       <button id="up" onclick="modify_qty(1,'qty9');modify_qty(1,'res')"><p><p>+</p></button>
+	   
+	  
+    </div></p></ul>
+	
+		
+</body>
+</html>

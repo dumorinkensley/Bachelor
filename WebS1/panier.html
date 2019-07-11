@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href="panier.css">
+	<title>Panier</title>
+</head>
+
+<body>
+	<header>
+	<div id="logo_nav">
+                  <a href="index.html"><img src="logcuisine.png" alt="Logo" class="taille_image"></a>
+               </div>
+	<nav id="menu">
+		<ul>
+                     	<li><a href="index.html">Accueil</a></li>
+                     		<li>
+                        		<a href="index.html#entre">Menu</a>
+                        	
+                     		</li>
+							<li><a href="cour.html">Nos cours</a></li>
+                     	<li>
+                        <a class="menu" href="Engagements.html">Nos valeurs</a>
+                    	</li>
+						<li><a href="contact.html">Contact</a></li>
+						<li><a href="inscription1.html">Inscription</a></li>
+		</ul>
+		</nav>
+		<h1> Panier</h1>
+	</header>
+	<div id="section_commande">
+		<p id="titre_section_commande">Votre commande</p>
+		<a href="legume.html" onclick="window.open(this.href, 'Popup', 'scrollbars=1,resizable=1,height=900,width=480'); return false;"><p  id="choix 1">
+			Légumes d'hiver rôtis au four</a> &nbsp 4.99  €
+		</p>
+		<a href="purée.html" onclick="window.open(this.href, 'Popup', 'scrollbars=1,resizable=1,height=900,width=480'); return false;"><p id="choix 2">
+			Sauté de boeuf bio et Purée</a> &nbsp 13.99 €
+		</p>
+		<a href="gateau.html" onclick="window.open(this.href, 'Popup', 'scrollbars=1,resizable=1,height=900,width=480'); return false;"><p id="choix3">
+			Gâteau au yaourt de brebis bio</a> &nbsp 6.99 €
+		</p>
+
+	</div>
+	<img id="map" src="map.jpeg" align="left" alt="carte livraisons">
+	<div id="section_livraison">
+		<p id="livraison">Veuillez choisir votre point de retrait</p>
+		<p class="case_livraison">
+			<input class="case" id="livraison1" type="checkbox">
+			<label for="livraison1"> Ermont </label>
+		</p>
+		<p class="case_livraison">
+			<input class="case" id="livraison2" type="checkbox">
+			<label for="livraison2"> Montmorency </label>
+		</p>
+		<p class="case_livraison">
+			<input class="case" id="livraison3" type="checkbox">
+			<label for="livraison3"> Saint-Gratien </label>
+		</p>
+		<p class="case_livraison">
+			<input class="case" id="livraison4" type="checkbox">
+			<label for="livraison4"> Enghien-les-Bains </label>
+		</p>
+		<p class="case_livraison">
+			<input class="case" id="livraison5" type="checkbox">
+			<label for="livraison5"> Epinay-sur-Seine </label>
+		</p>
+	</div>
+		<p id="total">
+			Total commande : 
+		</p>
+		<p id="prix">25.97 euros </br>
+		</p>		
+		<p id="titre_paiement"> Veuillez choisir votre moyen de paiement </p>
+		<img id="img_paiement" src="paiement.png" alt="moyen de paiement">
+	<div id="case_paiement1">
+	<p>
+		<input class="case" id="paiement1" type="checkbox">
+		<label for="paiement1"> Carte Bancaire </label>
+	</p>
+	<p>
+		<input class="case" id="paiement2" type="checkbox">
+		<label for="paiement2"> VISA </label>
+	</p>
+	<p>
+		<input class="case" id="paiement3" type="checkbox">
+		<label for="paiement3"> Master Card </label>
+	</p>
+	</div>
+	<button> Valider la commande </button>
+	
+	
+	
+	
+

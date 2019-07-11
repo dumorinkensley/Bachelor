@@ -1,0 +1,103 @@
+header
+{
+	background-image:url("engagement.png");
+	width:100%;
+	height:600px;
+	background-repeat: no-repeat;
+	position: -webkit-sticky;
+    position: sticky;
+	background-size:cover;
+}
+img{
+    
+   width: 200px;
+   height: 200px;
+   background-repeat: no-repeat;
+}
+.tout
+{
+    height: auto;
+    width: 100%;
+    text-align: center;
+	margin-bottom:40px;
+
+}
+.tout .img-texte img 
+{
+    width:250px;
+    height: 200px;
+    display: inline-block;
+
+
+}
+.img-texte
+{
+    text-align: center;
+
+    height: 100%;
+    /*width:auto;*/
+    margin-top: 112,5px;
+}
+
+.texte 
+{
+	display: inline-block;
+	height: 200px;
+	text-align: center;
+	width: 65%;
+	vertical-align:top;	
+    background-color: #728254;
+	color:white;
+}
+.milieu
+{
+	font-size:20px;
+	padding:1em;
+}
+
+#menu ul 
+{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    background-color: #FFFFFF;
+    text-align: center;
+    z-index: 1;
+    position: absolute;
+    top: 1px;
+    right: 1px;
+	
+ }
+ #menu ul li 
+ {
+    display: block;
+    position: relative;
+    float: left;
+}
+#menu li ul {
+    display: none;
+}
+#menu ul li a {
+    display: block;
+    padding: 17px 24px;
+    background-color: #728254;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 22px;
+}
+
+#menu li:hover ul {
+    display: block;
+    position: absolute;
+}
+#menu li:hover li {
+    float: none;
+    border: 1px solid #2F1B0C;
+}
+
+#menu li a:hover  {
+    
+	color:green;
+	background-color:white;
+	font-style:italic;
+}
